@@ -10,7 +10,8 @@
 
  책에서는 2차 함수인 f(x)=-x^2+38x+80의 최댓값을 구하는 것으로 예시를 들었다. 하지만 함수의 차수가 커지게 되면 함수의 정의역이 실수 전체가 될 수 있으므로 최댓값과 최솟값을 구할 수 없을 수 있다.
 
-![](C:\Users\cjh00\OneDrive\바탕 화면\함수1.PNG)
+<img width="443" alt="함수1" src="https://user-images.githubusercontent.com/80919306/121705502-a77f0700-cb0f-11eb-9c60-f8862f073875.PNG">
+
 
 3차 함수인 y=x^3+3x^2+2x+4이다. 이 함수는  x가 실수 전체일때 최솟값과 최댓값을 가지지 않는다.
 
@@ -126,13 +127,15 @@ public class SimulatedAnnealing {
 
 ### 실행 결과
 
-![결과](C:\Users\cjh00\Desktop\결과.PNG)
+<img width="1141" alt="결과" src="https://user-images.githubusercontent.com/80919306/121705571-b9f94080-cb0f-11eb-814a-311bec8a610d.PNG">
+
 
 실행 결과에 의하면 x가 약 0.9일 때 함수는 최솟값 0.1을 갖는다.
 
 ### 실제 결과 확인(수작업)
 
-![함수](C:\Users\cjh00\Desktop\함수.jpg)
+![함수](https://user-images.githubusercontent.com/80919306/121705604-c54c6c00-cb0f-11eb-8240-038923733010.jpg)
+
 
 
 
@@ -140,9 +143,11 @@ public class SimulatedAnnealing {
 
  모의 담금질을 이용한 종속 변수 데이터로 예전에 화학 실험을 했던 자료를 사용하기로 했습니다. 실험 내용은 실험실에 주어진 미지의 물체를 알아보기 위해 물체를 시험관에 물과 섞어 넣어 가열시켜 온도의 변화를 측정하고 결과값에 의해 녹는점을 측정하고 물질의 정체를 측정하는 것이었습니다. 참고로 사용된 물질은 팔미트산(plamitic acid)였고 아래의 사진은 당시의 결과값, 그래프입니다.
 
-![실험2](C:\Users\cjh00\Desktop\실험2.jpg)
+![실험2](https://user-images.githubusercontent.com/80919306/121705637-cd0c1080-cb0f-11eb-8e8a-33d8ea46b1a1.jpg)
 
-![실험1](C:\Users\cjh00\Desktop\실험1.jpg)
+
+![실험1](https://user-images.githubusercontent.com/80919306/121705676-d8f7d280-cb0f-11eb-93ad-709c7c59fb01.jpg)
+
 
 기존의 실험에서는 온도의 변화가 없는 시점을 녹는점으로 측정했는데 모의 담금질을 이용하기 위해 그래프를 온도에 따른 온도가 나타난 개수를 하여 온도의 개수가 가장 많다는 것이 변화가 없다는 것을 의미하기 때문에 그때의 온도값이 녹는점임을 알 수 있습니다. 아래는 온도에 따른 개수의 표에 대한 자료입니다.
 
@@ -182,7 +187,7 @@ public class SimulatedAnnealing {
 | 70℃     | 1               |
 | 71℃     | 2               |
 
-![image-20210611222943071](C:\Users\cjh00\AppData\Roaming\Typora\typora-user-images\image-20210611222943071.png)
+<img width="894" alt="차트" src="https://user-images.githubusercontent.com/80919306/121705935-1d836e00-cb10-11eb-8f35-31909244d840.PNG">
 
 이 실험을 통해 54도에서 가장 많이 관측됬음을 알 수 있고 따라서 54도가 녹는점임을 알 수 있습니다.
 
